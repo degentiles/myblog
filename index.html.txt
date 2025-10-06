@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>YourName's Blog</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>YourName’s Blog</h1>
+    <p class="tagline">Colorful thoughts. Modern stories. Inspired living.</p>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#posts">Posts</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section id="home" class="section">
+    <img src="profile.jpg" alt="Your photo" class="profile">
+    <h2>Welcome 👋</h2>
+    <p>Hello! I’m <strong>YourName</strong> — a passionate blogger sharing colorful stories about life, design, and creativity. Let’s explore ideas that inspire!</p>
+  </section>
+
+  <section id="posts" class="section">
+    <h2>Recent Posts 📰</h2>
+    <div class="posts">
+      <article class="card">
+        <h3>The Beauty of Everyday Moments</h3>
+        <p>Discover how small things can inspire great ideas...</p>
+        <a href="#">Read More →</a>
+      </article>
+
+      <article class="card">
+        <h3>Colors That Spark Creativity</h3>
+        <p>Let’s talk about the emotional power of color in design...</p>
+        <a href="#">Read More →</a>
+      </article>
+
+      <article class="card">
+        <h3>How to Stay Motivated</h3>
+        <p>Simple habits that help keep your creative energy alive...</p>
+        <a href="#">Read More →</a>
+      </article>
+    </div>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Let’s Connect 💬</h2>
+    <p>Email: <a href="mailto:youremail@example.com">youremail@example.com</a></p>
+    <div class="socials">
+      <a href="#">Facebook</a>
+      <a href="#">Instagram</a>
+      <a href="#">X</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 YourName’s Blog | Made with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
